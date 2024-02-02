@@ -13,6 +13,7 @@
 		19FD731C2B6CAACA006C5804 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FD731B2B6CAACA006C5804 /* Preview Assets.xcassets */; };
 		19FD73252B6CC0E1006C5804 /* TozaiLineData.json in Resources */ = {isa = PBXBuildFile; fileRef = 19FD73242B6CC0E1006C5804 /* TozaiLineData.json */; };
 		19FD73272B6CC874006C5804 /* StationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD73262B6CC874006C5804 /* StationInfo.swift */; };
+		19FD73292B6CCE5F006C5804 /* StationDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD73282B6CCE5F006C5804 /* StationDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		19FD731B2B6CAACA006C5804 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		19FD73242B6CC0E1006C5804 /* TozaiLineData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TozaiLineData.json; sourceTree = "<group>"; };
 		19FD73262B6CC874006C5804 /* StationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationInfo.swift; sourceTree = "<group>"; };
+		19FD73282B6CCE5F006C5804 /* StationDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,10 +59,11 @@
 			children = (
 				19FD73142B6CAACA006C5804 /* ScrollDetectSampleApp.swift */,
 				19FD73162B6CAACA006C5804 /* StationListView.swift */,
+				19FD73262B6CC874006C5804 /* StationInfo.swift */,
+				19FD73282B6CCE5F006C5804 /* StationDataManager.swift */,
 				19FD73182B6CAACA006C5804 /* Assets.xcassets */,
 				19FD73242B6CC0E1006C5804 /* TozaiLineData.json */,
 				19FD731A2B6CAACA006C5804 /* Preview Content */,
-				19FD73262B6CC874006C5804 /* StationInfo.swift */,
 			);
 			path = ScrollDetectSample;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			files = (
 				19FD73172B6CAACA006C5804 /* StationListView.swift in Sources */,
 				19FD73152B6CAACA006C5804 /* ScrollDetectSampleApp.swift in Sources */,
+				19FD73292B6CCE5F006C5804 /* StationDataManager.swift in Sources */,
 				19FD73272B6CC874006C5804 /* StationInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
