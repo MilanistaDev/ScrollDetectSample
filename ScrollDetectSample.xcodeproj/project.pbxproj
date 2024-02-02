@@ -17,6 +17,7 @@
 		19FD732B2B6CCF7A006C5804 /* StationListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD732A2B6CCF7A006C5804 /* StationListViewModel.swift */; };
 		19FD732F2B6CD56A006C5804 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FD732E2B6CD56A006C5804 /* Colors.xcassets */; };
 		19FD73312B6CD5F4006C5804 /* StationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD73302B6CD5F4006C5804 /* StationRow.swift */; };
+		19FD73332B6CF3B5006C5804 /* ScrollToTopButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD73322B6CF3B5006C5804 /* ScrollToTopButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		19FD732A2B6CCF7A006C5804 /* StationListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListViewModel.swift; sourceTree = "<group>"; };
 		19FD732E2B6CD56A006C5804 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		19FD73302B6CD5F4006C5804 /* StationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationRow.swift; sourceTree = "<group>"; };
+		19FD73322B6CF3B5006C5804 /* ScrollToTopButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollToTopButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				19FD732E2B6CD56A006C5804 /* Colors.xcassets */,
 				19FD73242B6CC0E1006C5804 /* TozaiLineData.json */,
 				19FD731A2B6CAACA006C5804 /* Preview Content */,
+				19FD73322B6CF3B5006C5804 /* ScrollToTopButton.swift */,
 			);
 			path = ScrollDetectSample;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				19FD73152B6CAACA006C5804 /* ScrollDetectSampleApp.swift in Sources */,
 				19FD73312B6CD5F4006C5804 /* StationRow.swift in Sources */,
 				19FD73292B6CCE5F006C5804 /* StationDataManager.swift in Sources */,
+				19FD73332B6CF3B5006C5804 /* ScrollToTopButton.swift in Sources */,
 				19FD73272B6CC874006C5804 /* StationInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

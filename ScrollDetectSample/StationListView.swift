@@ -23,6 +23,13 @@ struct StationListView: View {
             }
             .navigationTitle("東西線駅リスト")
             .navigationBarTitleDisplayMode(.large)
+            .overlay(alignment: .bottomTrailing) {
+                ScrollToTopButton {
+                    // TODO: Scroll To Top
+                }
+                .padding(.trailing, 16.0)
+                .padding(.bottom, 16.0)
+            }
         }
         .onAppear {
             viewModel.getStationList()
