@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct StationListView: View {
+    @State private var viewModel = StationListViewModel()
+
     var body: some View {
         NavigationStack {
             ScrollView {
@@ -23,6 +25,9 @@ struct StationListView: View {
             }
             .navigationTitle("東西線駅リスト")
             .navigationBarTitleDisplayMode(.large)
+        }
+        .onAppear {
+            viewModel.getStationList()
         }
     }
 }
