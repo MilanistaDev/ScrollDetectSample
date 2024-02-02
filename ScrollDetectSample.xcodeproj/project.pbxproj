@@ -11,6 +11,7 @@
 		19FD73172B6CAACA006C5804 /* StationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD73162B6CAACA006C5804 /* StationListView.swift */; };
 		19FD73192B6CAACA006C5804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FD73182B6CAACA006C5804 /* Assets.xcassets */; };
 		19FD731C2B6CAACA006C5804 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FD731B2B6CAACA006C5804 /* Preview Assets.xcassets */; };
+		19FD73252B6CC0E1006C5804 /* TozaiLineData.json in Resources */ = {isa = PBXBuildFile; fileRef = 19FD73242B6CC0E1006C5804 /* TozaiLineData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		19FD73162B6CAACA006C5804 /* StationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListView.swift; sourceTree = "<group>"; };
 		19FD73182B6CAACA006C5804 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19FD731B2B6CAACA006C5804 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		19FD73242B6CC0E1006C5804 /* TozaiLineData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TozaiLineData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				19FD73142B6CAACA006C5804 /* ScrollDetectSampleApp.swift */,
 				19FD73162B6CAACA006C5804 /* StationListView.swift */,
 				19FD73182B6CAACA006C5804 /* Assets.xcassets */,
+				19FD73242B6CC0E1006C5804 /* TozaiLineData.json */,
 				19FD731A2B6CAACA006C5804 /* Preview Content */,
 			);
 			path = ScrollDetectSample;
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19FD731C2B6CAACA006C5804 /* Preview Assets.xcassets in Resources */,
+				19FD73252B6CC0E1006C5804 /* TozaiLineData.json in Resources */,
 				19FD73192B6CAACA006C5804 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
