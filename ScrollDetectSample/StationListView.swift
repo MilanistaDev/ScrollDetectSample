@@ -8,20 +8,18 @@
 import SwiftUI
 
 struct StationListView: View {
-    @State private var viewModel = StationListViewModel()
+    @StateObject private var viewModel = StationListViewModel()
 
     var body: some View {
         NavigationStack {
             ScrollView {
-                VStack {
-                    Image(systemName: "globe")
-                        .imageScale(.large)
-                        .foregroundStyle(.tint)
-
-                    Text("Hello, world!")
-
-                    Spacer()
+                LazyVStack {
+                    ForEach(viewModel.stationList, id: \.imageName) { stationinfo in
+                        StationRow(stationInfo: stationinfo)
+                    }
                 }
+                .padding(.vertical, 20.0)
+                .padding(.leading, 32.0)
             }
             .navigationTitle("東西線駅リスト")
             .navigationBarTitleDisplayMode(.large)

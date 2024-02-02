@@ -18,7 +18,8 @@ struct StationRow: View {
 
             transferPart()
         }
-        .padding(.vertical, 16.0)
+        .padding(.top, 8.0)
+        .padding(.bottom, 20.0)
         .overlay(alignment: .bottom) {
             Divider()
         }
@@ -36,7 +37,7 @@ extension StationRow {
                 Text("東京メトロ 東西線")
                     .font(.subheadline)
 
-                HStack(spacing: 4.0) {
+                HStack(spacing: 8.0) {
                     Image(stationInfo.imageName)
                         .resizable()
                         .scaledToFit()

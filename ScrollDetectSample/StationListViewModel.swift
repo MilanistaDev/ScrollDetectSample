@@ -12,7 +12,9 @@ final class StationListViewModel: ObservableObject {
 
     func getStationList() {
         StationDataManager().getStationInfoList { stationList in
-            self.stationList = stationList
+            DispatchQueue.main.async {
+                self.stationList = stationList
+            }
         }
     }
 }
